@@ -1,0 +1,27 @@
+.container_big-card {
+    max-width: 668px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.container_big-card > img {
+    width: 100%;
+    max-height: 400px;
+}
+
+.big-card_content-text span{
+    margin: 0.2em 0;
+    font-size: 0.8em;
+    opacity: 0.3;
+}
+
+.big-card_content-text h3 {
+    font-size: 1.5em;
+    margin: 0.8em 0;
+    opacity: 0.8;
+}
+
+.big-card_content-text p {
+    opacity: 0.5;
+}

@@ -1,5 +1,5 @@
 .container_big-card {
-    max-width: 668px;
+    max-width: 628px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -11,7 +11,6 @@
 }
 
 .big-card_content-text span{
-    margin: 0.2em 0;
     font-size: 0.8em;
     opacity: 0.3;
 }

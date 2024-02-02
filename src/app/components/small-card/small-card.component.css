@@ -1,6 +1,8 @@
 .content_small-card{
     display: flex;
-    max-width: 628px;
+    gap: 1em;
+    max-width: 612px;
+    padding: 0 1em;
 }
 
 .small-card_content-text{

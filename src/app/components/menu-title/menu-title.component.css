@@ -1,3 +1,7 @@
+.content_menu-title {
+    padding: 0 1.6em;
+}
+
 .content_menu-title > h1{
     margin: 10px 0;
     text-align: center;
@@ -9,4 +13,10 @@
     background-color: #2a2a2a;
     border: 0;
     height: 0.5px;
+}
+
+@media screen and (max-width: 370px) {
+    .content_menu-title > h1{
+        font-size: 3em;
+    }
 }

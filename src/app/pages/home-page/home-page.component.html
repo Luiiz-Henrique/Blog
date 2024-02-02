@@ -1,2 +1,25 @@
-<app-big-card (click)="teste()" ></app-big-card>
-<app-small-card></app-small-card>
+<div class="content_home-page">
+    <div class="home-page_header">
+        <app-menu-bar></app-menu-bar>
+    </div>
+    
+    <div class="home-page_title">
+        <app-menu-title></app-menu-title>
+    </div>
+    
+    <div class="home-page_news">
+        <div class="news_main-news">
+            <app-big-card  (click)="teste()"></app-big-card>
+        </div>
+
+        <div class="news_others-news">
+            <app-small-card (click)="teste()"></app-small-card>
+            <hr>
+            <app-small-card (click)="teste()"></app-small-card>
+            <hr>
+            <app-small-card (click)="teste()"></app-small-card>
+        </div>
+    </div>
+    
+</div>
+

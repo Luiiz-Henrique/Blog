@@ -1,8 +1,9 @@
-.content_small-card{
+.container_small-card{
     display: flex;
     gap: 1em;
     max-width: 612px;
     padding: 0 1em;
+    cursor: pointer;
 }
 
 .small-card_content-text{
@@ -23,4 +24,13 @@
 .small-card_img img {
     width: 100%;
     max-height: 151px;
+}
+
+@media screen and (max-width: 767px){
+    .small-card_img{
+        order: 1;
+    }
+    .small-card_content-text{
+        order: 2;
+    }
 }

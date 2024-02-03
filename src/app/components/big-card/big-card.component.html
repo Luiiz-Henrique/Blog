@@ -1,12 +1,12 @@
-<div class="container_big-card">
+<div class="container_big-card" (click)="newsNavigation(id)">
     <div class="big-card_img">
-        <img src="https://via.placeholder.com/1080x720/eee?text=3:2" alt="news photo" srcset="">
+        <img src="{{ photoUrl }}" alt="news photo" srcset="">
     </div>
     
 
     <div class="big-card_content-text">
-        <span> Jul 17, 2023 </span>
-        <h3> Beberapa cara menggunakan bold typography pada design website</h3>
-        <p>Di artikel ini saya membuat daftar hal hal yang bisa digunakan dengan bold typography pada design website. Agar bold typography menjadi menarik dan tidak mengganggu visual.</p>
+        <span> {{ date }} </span>
+        <h3> {{ title }} </h3>
+        <p> {{ newsContent }} </p>
     </div>
 </div>

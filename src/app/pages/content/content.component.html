@@ -1,33 +1,38 @@
 <div class="container_content">
+    <div class="content_header">
+        <app-menu-bar></app-menu-bar>
+    </div>
+    
+
     <div class="content_img">
-        <img src="https://via.placeholder.com/1080x720/eee?text=3:2" alt="news image" srcset="">
+        <img src="{{ photoUrl }}" alt="news image" srcset="">
     </div>
 
     <div class="content_title">
-        <h1>Beberapa cara menggunakan bold typography pada design website</h1>
+        <h1>{{ title }}</h1>
     </div>
 
     <div class="content_news-content">
-        <p>Di artikel ini saya membuat daftar hal hal yang bisa digunakan dengan bold typography pada design website. Agar bold typography menjadi menarik dan tidak mengganggu visual.</p>
+        <p> {{ newsContent }} </p>
     </div>
 
     <div class="content_others-infos">
         <ul>
             <li>
                 <p>Date</p>
-                <span>Jul 17, 2023</span>
+                <span> {{ date }} </span>
             </li>
             <li>
                 <p>Writer</p>
-                <span>Luiz Henrique</span>
+                <span> {{ writer }} </span>
             </li>
             <li>
                 <p>Estimate</p>
-                <span>1 min</span>
+                <span> {{ estimate }} </span>
             </li>
             <li>
                 <p>Category</p>
-                <span>fantasy</span>
+                <span> {{ category }} </span>
             </li>
         </ul>
     </div>

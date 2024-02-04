@@ -1,8 +1,13 @@
 .container_home-page {
     display: flex;
     flex-direction: column;
+    margin: auto;
     gap: 2em;
     max-width: 1440px;
+}
+
+.home-page_header {
+    padding: 0 1.6em;
 }
 
 .home-page_news {

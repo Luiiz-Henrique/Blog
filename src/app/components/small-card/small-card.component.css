@@ -28,9 +28,9 @@
 
 @media screen and (max-width: 767px){
     .small-card_img{
-        order: 1;
+        order: 2;
     }
     .small-card_content-text{
-        order: 2;
+        order: 1;
     }
 }

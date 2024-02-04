@@ -1,7 +1,6 @@
-
-
 export const dataFake = [
         {
+            id: "0",
             title: "Beberapa cara menggunakan bold typography pada design website",
             subtitle: "Menggunakan bold typography pada desain website",
             photoUrl: "https://www.dwinawan.com/blog/thumb_article41.jpg",
@@ -13,6 +12,7 @@ export const dataFake = [
             estimate: "1 min",
         },
         {
+            id: "1",
             title: "Tentang batasan yang harus dipahami saat membuat design",
             subtitle: "Tentang batasan saat membuat design",
             photoUrl: "https://www.dwinawan.com/blog/thumb_article40.jpg",
@@ -24,6 +24,7 @@ export const dataFake = [
             estimate: "1 min",
         },
         {
+            id: "2",
             title: "Berlatih UX Writing dengan beberapa prinsip dasar microcopy",
             subtitle: "Berlatih UX Writing dengan Prinsip Dasar Microcopy",
             photoUrl: "https://www.dwinawan.com/blog/thumb_article15.jpg",
@@ -35,6 +36,7 @@ export const dataFake = [
             estimate: "2 min",
         },
         {
+            id: "3",
             title: "Bisakah eksplorasi design dipakai untuk melamar pekerjaan UI Designer?",
             subtitle: "Apakah eksplorasi design bisa digunakan untuk melamar pekerjaan UI Design?",
             photoUrl: "https://www.dwinawan.com/blog/thumb_article20.jpg",
